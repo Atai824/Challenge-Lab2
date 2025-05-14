@@ -26,4 +26,41 @@ h1 {
 img {
    border: 2px solid black;
 }
+h2 {
+   color: #f00;
+   font-weight: bold;
+}
+#image-block {
+   position: relative;
+   height:200px;
+   margin-bottom: 20px;
+}
+#image-block img {
+   position: absolute;
+   width: 300px;
+   border: 2px solid black;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+#pig {
+   top: 0;
+   left: 0;
+   width: 150px;
+   z-index: 1;
+}
+#cow {
+   top: 0;
+   left: 165px;
+   transform: rotate(7deg);
+   z-index: 2;
+}
+#feature {
+   background-color: #fff000;
+   padding: 10px 15px; 
+   font-weight: bold;
+   height: 150px;
+}
+#feature h2 {
+   color: black;
+}
+
 
